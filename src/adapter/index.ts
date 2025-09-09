@@ -3,6 +3,7 @@ import { FetchAdapter } from "./clases/FetchAdapter";
 import { AxiosAdapter } from "./clases/AxiosAdapater";
 
 export async function runAdapter() {
+    console.log("\nPATRÓN ADAPTER: HTTP CLIENT \n");
 	const url = "https://jsonplaceholder.typicode.com/posts/1";
 
 	// Usando FetchAdapter

@@ -1,5 +1,6 @@
 import { ConexionDB } from './clases/conexionDB';
 export function runSingleton() {
+    console.log("\nPATRÓN SINGLETON: DB \n");
   const db1 = ConexionDB.getInstance('localhost', 5173, 'admin');
   db1.conectar();
 
