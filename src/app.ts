@@ -1,6 +1,6 @@
 import { runObserver } from "./observer";
 import { runAdapter } from "./adapter";
-// import { runSingleton } from "./singleton";
+import { runSingleton } from "./singleton";
 // import { runFactory } from "./factory";
 
 
@@ -8,7 +8,7 @@ import { runAdapter } from "./adapter";
   async () => {
     await runObserver();
     await runAdapter();
-    // await runSingleton();
+    await runSingleton();
     // await runFactory();
   }
 )();
